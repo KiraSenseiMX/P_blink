@@ -73,7 +73,6 @@ int main ()
         analogRead = myAnalogRead(spiChannel,channelConfig,0) + 1;
         period = (double)(1.0/analogRead); // in ms
         freq   = 1.0/(2*period);
-        
         printf("freq = %03.2f\r",freq);
         
         digitalWrite (PIN18, HIGH);
