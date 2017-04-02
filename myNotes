@@ -1,0 +1,3 @@
+compile & run c programs on terminal
+gcc p_blink.c -o p_blink -l wiringPi -l ncurses
+sudo ./blink
